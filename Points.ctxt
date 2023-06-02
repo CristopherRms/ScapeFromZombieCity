@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Points
+comment1.params=
+comment1.target=Points()
+comment2.params=prefix
+comment2.target=Points(java.lang.String)
+comment2.text=\r\n\ Create\ a\ new\ counter,\ initialised\ to\ 0.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Animate\ the\ display\ to\ count\ up\ (or\ down)\ to\ the\ current\ target\ value.\r\n
+comment4.params=
+comment4.target=int\ getValue()
+comment4.text=\r\n\ Return\ the\ current\ counter\ value.\r\n
+comment5.params=newValue
+comment5.target=void\ setValue(int)
+comment5.text=\r\n\ Set\ a\ new\ counter\ value.\ \ This\ will\ not\ animate\ the\ counter.\r\n
+comment6.params=
+comment6.target=void\ updateImage()
+comment6.text=\r\n\ Update\ the\ image\ on\ screen\ to\ show\ the\ current\ value.\r\n
+numComments=7

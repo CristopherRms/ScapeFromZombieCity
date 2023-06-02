@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Reinicia
+comment0.text=\r\n\ Reinicia\ el\ nivel\ o\ va\ al\ menu\r\n
+comment1.params=a\ b\ c
+comment1.target=Reinicia(int,\ int,\ int)
+comment1.text=\r\n\ Constructor\r\n
+numComments=2

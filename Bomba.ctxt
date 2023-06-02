@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Bomba
+comment1.params=
+comment1.target=Bomba()
+comment1.text=\r\n\ Constructor\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ moverDerecha()
+comment3.text=\r\n\ establace\ la\ direccion\ a\ la\ que\ se\ muev\r\n
+comment4.params=
+comment4.target=void\ moverIzquierda()
+comment5.params=
+comment5.target=void\ explotar()
+comment5.text=\r\nExplota\ y\ elimina\ a\ los\ enemigos\ cercanos\ \r\n
+numComments=6

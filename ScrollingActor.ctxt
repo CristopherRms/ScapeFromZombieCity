@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=ScrollingActor
+comment1.params=dx
+comment1.target=void\ setAbsoluteLocation(int)
+numComments=2
