@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.target=HTP
-comment0.text=\r\n\ Abre\ el\ ecenario\ donde\ estan\ los\ controles\r\n
+comment0.text=\r\n\ Clase\ HTP\ (How\ To\ Play\ -\ C\u00F3mo\ Jugar)\r\n\ \r\n\ Esta\ clase\ representa\ un\ bot\u00F3n\ para\ abrir\ el\ escenario\ donde\ se\ encuentran\ los\ controles\ del\ juego.\r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0.\r\n
 comment1.params=
 comment1.target=void\ act()
+comment1.text=\r\n\ Act\u00FAa\ cuando\ se\ hace\ clic\ en\ el\ bot\u00F3n.\r\n\ Cambia\ el\ mundo\ al\ escenario\ de\ controles.\r\n
 numComments=2

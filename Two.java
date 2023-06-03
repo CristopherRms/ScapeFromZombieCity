@@ -1,23 +1,26 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Two here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Nivel 2
+ * @autor CristopherRms
+ * @version 1.0
  */
 public class Two extends Level1
 {
     private String t;
     
     /**
-     * Constructor for objects of class Two.
+     * Constructor de la clase One.
+     * Crea una nueva instancia de la clase One.
      * 
+     * @param ata el valor del ataque
+     * @param ataB el valor del ataque B
+     * @param ataC el valor del ataque C
+     * @param puntos los puntos obtenidos
      */
     public Two(int ata,int ataB , int ataC, int puntos)
     {    
         backgroundImage=new GreenfootImage("NivelDos.png");
-        
         sound= new GreenfootSound("N2.mp3");
         ataque=ata;
         ataqueB=ataB;

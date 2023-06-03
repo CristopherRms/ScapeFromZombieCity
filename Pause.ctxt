@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Pause
-comment0.text=\r\n\ Pausa\ el\ juego\r\n
+comment0.text=\r\n\ Clase\ Pause\ (Pausa)\r\n\ \r\n\ Esta\ clase\ representa\ un\ bot\u00F3n\ que\ permite\ pausar\ el\ juego.\r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0.\r\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Pause\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.text=\r\n\ Act\u00FAa\ cuando\ se\ hace\ clic\ en\ el\ bot\u00F3n.\r\n\ Pausa\ el\ juego\ y\ detiene\ los\ sonidos.\r\n
 numComments=2

@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Life
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Life\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ La\ clase\ Life\ representa\ una\ vida\ extra\ en\ el\ juego.\r\n\ Esta\ clase\ hereda\ de\ la\ clase\ ScrollingActor.\r\n\ Cuando\ el\ personaje\ interact\u00FAa\ con\ una\ vida\ extra,\ se\ le\ asigna\ el\ valor\ 100\ a\ la\ propiedad\ "life"\ del\ personaje,\r\n\ y\ la\ vida\ extra\ se\ elimina\ del\ mundo.\r\n\ \r\n\ Author\ CristopherRms\r\n\ Version\ 1.0\r\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Life\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.text=\r\n\ M\u00E9todo\ act.\ Define\ el\ comportamiento\ de\ la\ vida\ extra.\r\n\ Este\ m\u00E9todo\ se\ ejecuta\ autom\u00E1ticamente\ cuando\ se\ presiona\ el\ bot\u00F3n\ "Act"\ o\ "Run"\ en\ el\ entorno.\r\n
 numComments=2

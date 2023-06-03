@@ -1,7 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Nivel Tres
+ * Nivel 3 del juego.
+ * Extiende la clase Level1.
+ * 
+ * @autor CristopherRms
+ * @version 1.0
  */
 public class Three extends Level1
 {

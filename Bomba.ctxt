@@ -1,16 +1,19 @@
 #BlueJ class context
 comment0.target=Bomba
+comment0.text=\r\n\ Esta\ clase\ representa\ un\ objeto\ Bomba\ en\ el\ juego.\r\n\ La\ bomba\ explota\ despu\u00E9s\ de\ cierto\ tiempo\ y\ da\u00F1a\ a\ los\ enemigos\ cercanos\r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0.\r\n
 comment1.params=
 comment1.target=Bomba()
-comment1.text=\r\n\ Constructor\r\n
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Bomba.\r\n\ Establece\ el\ tiempo\ de\ explosi\u00F3n\ predeterminado.\r\n
 comment2.params=
 comment2.target=void\ act()
+comment2.text=\r\n\ Este\ m\u00E9todo\ se\ llama\ cuando\ se\ act\u00FAa\ el\ objeto\ Bomba.\r\n\ Mueve\ la\ bomba\ en\ su\ direcci\u00F3n\ actual\ y\ maneja\ la\ explosi\u00F3n.\r\n
 comment3.params=
 comment3.target=void\ moverDerecha()
-comment3.text=\r\n\ establace\ la\ direccion\ a\ la\ que\ se\ muev\r\n
+comment3.text=\r\n\ Establece\ la\ direcci\u00F3n\ de\ la\ bomba\ para\ moverse\ hacia\ la\ derecha.\r\n
 comment4.params=
 comment4.target=void\ moverIzquierda()
+comment4.text=\r\n\ Establece\ la\ direcci\u00F3n\ de\ la\ bomba\ para\ moverse\ hacia\ la\ izquierda.\r\n
 comment5.params=
 comment5.target=void\ explotar()
-comment5.text=\r\nExplota\ y\ elimina\ a\ los\ enemigos\ cercanos\ \r\n
+comment5.text=\r\n\ Explota\ y\ da\u00F1a\ a\ los\ enemigos\ cercanos.\r\n\ Da\u00F1a\ a\ los\ enemigos\ dentro\ de\ un\ rango\ especificado\ y\ crea\ un\ efecto\ visual\ de\ explosi\u00F3n.\r\n
 numComments=6

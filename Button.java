@@ -1,34 +1,39 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Botones
+ * Clase Button (Botón)
+ * 
+ * Esta clase representa un botón en el juego.
+ * @autor CristopherRms
+ * @version 1.0.
  */
+public class Button extends Actor {
+    private boolean mouseOver = false;
+    public static final int MAX = 225;
 
-public class Button extends Actor
-{
-    private boolean mouseOver=false;
-    public static int MAX=225;
     /**
-     * Verfica si el mouse esta encima de el
+     * Verifica si el mouse está encima del botón.
      */
-    public void check_mouse()
-    {
-      if (Greenfoot.mouseMoved(null)){
-            mouseOver =Greenfoot.mouseMoved(this);
+    public void checkMouse() {
+        if (Greenfoot.mouseMoved(null)) {
+            mouseOver = Greenfoot.mouseMoved(this);
         }
-        if (mouseOver)
-        ajustTransparency(MAX/3);
-        else
-        ajustTransparency(MAX);
-  
+        if (mouseOver) {
+            adjustTransparency(MAX / 3);
+        } else {
+            adjustTransparency(MAX);
+        }
     }
+
     /**
-     * ajusta la transparencia de este
+     * Ajusta la transparencia del botón.
+     * 
+     * @param ajust El valor de ajuste de transparencia.
      */
-    public void ajustTransparency(int ajust){
-        GreenfootImage temp= getImage();
+    public void adjustTransparency(int ajust) {
+        GreenfootImage temp = getImage();
         temp.setTransparency(ajust);
         setImage(temp);
     }
-   
 }
+

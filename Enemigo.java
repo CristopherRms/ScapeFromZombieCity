@@ -1,16 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Clase para identificar a los personajes Enemigos
+ * Clase Enemigo (Enemy)
+ * 
+ * Esta clase representa a los personajes enemigos del juego.
+  * @autor CristopherRms
+ * @version 1.0
  */
-public class Enemigo extends Humanoide
-{
-    /**
-     * Act - do whatever the Enemigo wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act()
-    {
-        // Add your action code here.
+public class Enemigo extends Humanoide {
+    
+    public void act() {
+        // Implementar el comportamiento del enemigo aquí
     }
 }
+

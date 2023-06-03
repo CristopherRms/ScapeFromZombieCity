@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Reinicia
-comment0.text=\r\n\ Reinicia\ el\ nivel\ o\ va\ al\ menu\r\n
+comment0.text=\r\n\ Clase\ que\ representa\ la\ pantalla\ de\ reinicio\ del\ nivel\ o\ regreso\ al\ men\u00FA.\r\n\ \r\n\ Esta\ clase\ muestra\ opciones\ para\ reiniciar\ el\ nivel\ o\ regresar\ al\ men\u00FA\ principal.\r\n\ @author\ CristopherRms\r\n\ @version\ 1.0\r\n
 comment1.params=a\ b\ c
 comment1.target=Reinicia(int,\ int,\ int)
-comment1.text=\r\n\ Constructor\r\n
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Reinicia.\r\n\ \r\n\ @param\ a\ Ataque\r\n\ @param\ b\ Ataque\ \r\n\ @param\ c\ Ataque\ \r\n
 numComments=2

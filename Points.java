@@ -1,5 +1,8 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import greenfoot.*; 
+/** // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+ * @author CristopherRms
+ * @version 1.0
+ */
 
 public class Points extends Actor
 {

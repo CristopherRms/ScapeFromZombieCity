@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.target=Menu
+comment0.text=\r\n\ Clase\ que\ representa\ el\ men\u00FA\ principal\ del\ juego.\r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0\r\n
 comment1.params=
 comment1.target=Menu()
-comment1.text=\r\n\ Constructor\r\n
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Menu.\r\n
 numComments=2

@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Controls
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Controls\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Ventana\ para\ ver\ qu\u00E9\ controles\ se\ usan\ en\ el\ juego.\r\n\ Esta\ clase\ representa\ una\ ventana\ de\ ayuda\ que\ muestra\ los\ controles\ utilizados\ en\ el\ juego.\r\n\ Extiende\ la\ clase\ World\ de\ Greenfoot.\r\n\ \r\n\ @author\ CristopherRms\r\n\ @version\ 1.0\r\n
 comment1.params=
 comment1.target=Controls()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Controls.\r\n\ \r\n
+comment1.text=\r\n\ Constructor\ de\ los\ objetos\ de\ la\ clase\ Controls.\r\n\ Crea\ una\ nueva\ instancia\ de\ la\ clase\ Controls.\r\n\ Configura\ el\ tama\u00F1o\ del\ mundo\ a\ 800x600\ celdas\ con\ un\ tama\u00F1o\ de\ celda\ de\ 1x1\ p\u00EDxeles.\r\n\ Establece\ la\ imagen\ de\ fondo\ utilizando\ la\ imagen\ proporcionada.\r\n\ Agrega\ un\ objeto\ de\ tipo\ MenuGO\ al\ mundo\ en\ las\ coordenadas\ (400,\ 550).\r\n
 numComments=2

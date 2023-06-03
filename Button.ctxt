@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=Button
-comment0.text=\r\n\ Botones\r\n
+comment0.text=\r\n\ Clase\ Button\ (Bot\u00F3n)\r\n\ \r\n\ Esta\ clase\ representa\ un\ bot\u00F3n\ en\ el\ juego.\r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0.\r\n
 comment1.params=
-comment1.target=void\ check_mouse()
-comment1.text=\r\n\ Verfica\ si\ el\ mouse\ esta\ encima\ de\ el\r\n
+comment1.target=void\ checkMouse()
+comment1.text=\r\n\ Verifica\ si\ el\ mouse\ est\u00E1\ encima\ del\ bot\u00F3n.\r\n
 comment2.params=ajust
-comment2.target=void\ ajustTransparency(int)
-comment2.text=\r\n\ ajusta\ la\ transparencia\ de\ este\r\n
+comment2.target=void\ adjustTransparency(int)
+comment2.text=\r\n\ Ajusta\ la\ transparencia\ del\ bot\u00F3n.\r\n\ \r\n\ @param\ ajust\ El\ valor\ de\ ajuste\ de\ transparencia.\r\n
 numComments=3

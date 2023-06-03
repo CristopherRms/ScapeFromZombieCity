@@ -1,9 +1,10 @@
 #BlueJ class context
 comment0.target=Projectil2
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Projectil2\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ La\ clase\ Projectil2\ es\ una\ subclase\ de\ Projectile\ y\ representa\ un\ segundo\ tipo\ de\ proyectil\ en\ el\ juego.\r\n\ Esta\ clase\ hereda\ de\ la\ clase\ Projectile.\r\n\ \r\n\ @author\ CristopherRms\r\n\ @version\ 1.0\r\n
 comment1.params=
 comment1.target=Projectil2()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Projectil2\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Projectil2.\r\n\ Establece\ el\ da\u00F1o\ del\ proyectil\ a\ 50.\r\n
 comment2.params=
 comment2.target=void\ act()
+comment2.text=\r\n\ M\u00E9todo\ act.\ Define\ el\ comportamiento\ de\ Projectil2.\r\n\ Este\ m\u00E9todo\ se\ ejecuta\ autom\u00E1ticamente\ cuando\ se\ presiona\ el\ bot\u00F3n\ "Act"\ o\ "Run"\ en\ el\ entorno.\r\n
 numComments=3

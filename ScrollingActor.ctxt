@@ -1,5 +1,7 @@
 #BlueJ class context
 comment0.target=ScrollingActor
+comment0.text=\r\n\ La\ clase\ ScrollingActor\ es\ una\ subclase\ de\ Actor\ y\ representa\ un\ actor\ que\ se\ desplaza\ horizontalmente\ en\ el\ mundo.\r\n\ Esta\ clase\ proporciona\ el\ m\u00E9todo\ setAbsoluteLocation\ para\ establecer\ la\ ubicaci\u00F3n\ absoluta\ del\ actor\ en\ el\ eje\ x.\r\n\ Esta\ clase\ es\ utilizada\ para\ implementar\ el\ desplazamiento\ de\ actores\ en\ un\ juego\ de\ desplazamiento\ lateral.\r\n\ \r\n\ @author\ CristopherRms\r\n\ @version\ 1.0\r\n
 comment1.params=dx
 comment1.target=void\ setAbsoluteLocation(int)
+comment1.text=\r\n\ Establece\ la\ ubicaci\u00F3n\ absoluta\ del\ actor\ en\ el\ eje\ x\ sumando\ un\ desplazamiento\ dado.\r\n\ @param\ dx\ El\ desplazamiento\ en\ el\ eje\ x.\r\n
 numComments=2

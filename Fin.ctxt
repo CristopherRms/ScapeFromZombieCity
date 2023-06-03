@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Fin
-comment0.text=\r\n\ Mundo\ para\ el\ Final\ del\ juego\r\n
+comment0.text=\r\n\ Ventana\ para\ el\ final\ del\ juego.\r\n\ Esta\ clase\ representa\ la\ ventana\ final\ del\ juego\ que\ muestra\ la\ puntuaci\u00F3n\ obtenida.\r\n\ Extiende\ la\ clase\ World\ de\ Greenfoot.\r\n\ \r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0\r\n
 comment1.params=p
 comment1.target=Fin(int)
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Fin.\r\n\ \r\n
+comment1.text=\r\n\ Constructor\ de\ los\ objetos\ de\ la\ clase\ Fin.\r\n\ Crea\ una\ nueva\ instancia\ de\ la\ clase\ Fin.\r\n\ Configura\ el\ tama\u00F1o\ del\ mundo\ a\ 800x600\ celdas\ con\ un\ tama\u00F1o\ de\ celda\ de\ 1x1\ p\u00EDxeles.\r\n\ Establece\ la\ imagen\ de\ fondo\ utilizando\ la\ imagen\ proporcionada.\r\n\ Muestra\ la\ puntuaci\u00F3n\ obtenida\ en\ la\ posici\u00F3n\ (600,\ 190).\r\n\ Agrega\ un\ objeto\ de\ tipo\ MenuGO\ al\ mundo\ en\ las\ coordenadas\ (400,\ 500).\r\n\ \r\n\ @param\ p\ la\ puntuaci\u00F3n\ obtenida\ al\ final\ del\ juego.\r\n
 numComments=2

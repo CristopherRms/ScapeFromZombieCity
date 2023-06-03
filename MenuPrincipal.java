@@ -1,34 +1,29 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;  // Importa las clases necesarias de Greenfoot
 
 /**
- * Write a description of class MenuPrincipal here.
+ * Clase que representa el menú principal del juego.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Esta clase muestra un botón para iniciar el juego.
+ * 
+ * @author CristopherRms
+ * @version 1.0
  */
 public class MenuPrincipal extends World
 {
-    private Start b;
+    private Start b;  // Botón de inicio
     private GreenfootImage backgroundImage = new GreenfootImage("sfzzc.jpg");
+    
     /**
-     * Constructor for objects of class MenuPrincipal.
-     * 
+     * Constructor de la clase MenuPrincipal.
      */
     public MenuPrincipal()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(800, 600, 1); 
+        super(800, 600, 1);  // Crea un mundo de 800x600 celdas con un tamaño de celda de 1x1 píxeles.
         setBackground(backgroundImage);
-        b=new Start();
+        b = new Start();  // Crea una instancia del botón de inicio
 
-        addObject(b,400,500);        
-        prepare();
+        addObject(b, 400, 500);  // Agrega el botón al mundo en la posición (400, 500)
     }
-    /**
-     * Prepare the world for the start of the program.
-     * That is: create the initial objects and add them to the world.
-     */
-    private void prepare()
-    {
-    }
+   
 }
+

@@ -1,5 +1,7 @@
 #BlueJ class context
 comment0.target=Start
+comment0.text=\r\n\ Clase\ Start\ (Inicio)\r\n\ \r\n\ Esta\ clase\ representa\ un\ bot\u00F3n\ de\ inicio\ para\ comenzar\ el\ juego.\r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0.\r\n
 comment1.params=
 comment1.target=void\ act()
+comment1.text=\r\n\ Act\u00FAa\ cuando\ se\ mueve\ el\ mouse\ o\ se\ hace\ clic\ en\ el\ bot\u00F3n.\r\n
 numComments=2

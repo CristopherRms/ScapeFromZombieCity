@@ -1,21 +1,23 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Pausa el juego
+ * Clase Pause (Pausa)
+ * 
+ * Esta clase representa un botón que permite pausar el juego.
+ * @autor CristopherRms
+ * @version 1.0.
  */
-public class Pause extends Button
-{
+public class Pause extends Button {
+
     /**
-     * Act - do whatever the Pause wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Actúa cuando se hace clic en el botón.
+     * Pausa el juego y detiene los sonidos.
      */
-    public void act()
-    {
-        check_mouse();
-        if (Greenfoot.mouseClicked(this)){
-         ((Level1)getWorld()).paraSonido();
-         Greenfoot.stop();
-         
+    public void act() {
+        checkMouse();
+        if (Greenfoot.mouseClicked(this)) {
+            ((Level1)getWorld()).paraSonido();
+            Greenfoot.stop();
         }
     }
 }

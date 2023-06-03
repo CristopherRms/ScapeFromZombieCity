@@ -1,27 +1,29 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Key here.
+ * La clase Key representa una llave en el juego.
+ * Esta clase hereda de la clase ScrollingActor.
+ * Cuando el personaje interactúa con la llave, se le asigna la propiedad "key" al personaje y la llave se elimina del mundo.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Author CristopherRms
+ * Version 1.0
  */
 public class Key extends ScrollingActor
 {
     /**
-     * Act - do whatever the Key wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Método act. Define el comportamiento de la llave.
+     * Este método se ejecuta automáticamente cuando se presiona el botón "Act" o "Run" en el entorno.
      */
     public void act()
     {
+        // Verifica si el personaje está intersectando con la llave
         Personaje p = (Personaje)getOneIntersectingObject(Personaje.class);
-            if (p != null) {
-                // Reducir la vida del zombie en un 50%
-                p.key=true;
-                getWorld().removeObject(this);
-                
-            }
+        if (p != null) {
+            // Asigna la propiedad "key" al personaje
+            p.key = true;
+            
+            // Elimina la llave del mundo
+            getWorld().removeObject(this);
+        }
     }
-
-
 }

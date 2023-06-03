@@ -1,16 +1,20 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- *  BarraVida .
+ * La clase LifeBar representa una barra de vida en el juego.
+ * Esta clase hereda de la clase Actor de Greenfoot.
+* @autor CristopherRms
+ * @version 1.0
  */
 public class LifeBar extends Actor
 {
     /**
-     * Act - do whatever the BarraVida wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Método act. Define el comportamiento de la barra de vida.
+     * Este método se ejecuta automáticamente en cada ciclo del juego.
      */
     public void act()
     {
-        // Add your action code here.
+        // Agrega tu código de acción aquí.
     }
 }
+

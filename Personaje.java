@@ -1,5 +1,11 @@
 import greenfoot.*; 
-
+/**
+* Clase Personaje (Character)
+ * 
+ * Esta clase representa a jefe en el juego.
+ * @autor CristopherRms
+ * @version 1.0
+ */
 public class Personaje extends Humanoide {
     private GreenfootImage[] idleDFrames;
     private GreenfootImage[] idleIFrames;
@@ -25,7 +31,8 @@ public class Personaje extends Humanoide {
     public boolean linea=false;
     public boolean bounded;
     /**
-     * Constructor
+     * Constructor de la clase Personaje.
+     * @param a si esta en un mundo de scroll.
      */
     public Personaje(boolean boun) {
         walkingDFrames = new GreenfootImage[3];
@@ -87,7 +94,9 @@ public class Personaje extends Humanoide {
         speedX=1;
         key=false;
     }
-    
+    /**
+     * Realiza las acciones del personaje en cada ciclo del juego.
+     */
     public void act() {
         keyboard();
         if(bounded==true)
@@ -209,7 +218,8 @@ public class Personaje extends Humanoide {
         }
     }
     /**
-     * regresa que Frame se usara
+     * Obtiene el frame actual de la animación.
+     * @return La imagen correspondiente al frame actual de la animación.
      */
     private GreenfootImage getCurrentFrame() {
         if (direction == 1 && modeAttack == false && stand == false && live == true) {

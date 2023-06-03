@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.target=Easy
-comment0.text=\r\n\ Pone\ el\ juego\ en\ dificultad\ Facil\r\n
+comment0.text=\r\n\ Clase\ Easy\ (F\u00E1cil)\r\n\ \r\n\ Esta\ clase\ representa\ un\ bot\u00F3n\ para\ establecer\ el\ juego\ en\ modo\ f\u00E1cil.\r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0.\r\n
 comment1.params=
 comment1.target=void\ act()
+comment1.text=\r\n\ Act\u00FAa\ cuando\ se\ hace\ clic\ en\ el\ bot\u00F3n.\r\n\ Cambia\ el\ mundo\ a\ una\ configuraci\u00F3n\ de\ dificultad\ f\u00E1cil.\r\n
 numComments=2

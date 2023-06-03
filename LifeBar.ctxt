@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=LifeBar
-comment0.text=\r\n\ \ BarraVida\ .\r\n
+comment0.text=\r\n\ La\ clase\ LifeBar\ representa\ una\ barra\ de\ vida\ en\ el\ juego.\r\n\ Esta\ clase\ hereda\ de\ la\ clase\ Actor\ de\ Greenfoot.\r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0\r\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ BarraVida\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.text=\r\n\ M\u00E9todo\ act.\ Define\ el\ comportamiento\ de\ la\ barra\ de\ vida.\r\n\ Este\ m\u00E9todo\ se\ ejecuta\ autom\u00E1ticamente\ en\ cada\ ciclo\ del\ juego.\r\n
 numComments=2

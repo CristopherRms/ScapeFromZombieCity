@@ -1,12 +1,23 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * La clase Projectile representa un proyectil en el juego.
+ * Esta clase hereda de la clase Actor de Greenfoot.
+ */
 public class Projectile extends Actor {
     private int velocidad; // velocidad del proyectil
     protected int dano;
-    public void act(){
-        
-    }
+
     /**
-     * verifica si ha tocado un enemigo
+     * Método act. Define el comportamiento del proyectil.
+     * Este método se ejecuta automáticamente en cada ciclo del juego.
+     */
+    public void act(){
+
+    }
+
+    /**
+     * Verifica si el proyectil ha tocado un enemigo.
      */
     public void proyectil(){
         boolean res=true;
@@ -27,27 +38,33 @@ public class Projectile extends Actor {
             if (enemigo != null) {
                 // Reducir la vida del zombie en un 50%
                 enemigo.life -= dano;
-        
+
                 // Elimina el proyectil del mundo
                 getWorld().removeObject(this);
             } 
         }
     }
+
     /**
-     * pone una velocidad a su movimiento
+     * Establece la velocidad del proyectil hacia la derecha.
      */
     public void moverDerecha()
     {
         // Establece la velocidad del proyectil hacia la derecha
         velocidad = 10;
     }
-    
+
+    /**
+     * Establece la velocidad del proyectil hacia la izquierda.
+     * Gira el proyectil hacia la izquierda.
+     */
     public void moverIzquierda()
     {
         // Establece la velocidad del proyectil hacia la izquierda
         velocidad = -10;
-        
+
         // Gira el proyectil hacia la izquierda
         
     }
 }
+

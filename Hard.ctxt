@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.target=Hard
-comment0.text=\r\n\ Pone\ el\ juego\ en\ dificultad\ Dificil\r\n
+comment0.text=\r\n\ Clase\ Hard\ (Dif\u00EDcil)\r\n\ \r\n\ Esta\ clase\ representa\ un\ bot\u00F3n\ para\ establecer\ el\ juego\ en\ modo\ dif\u00EDcil.\r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0.\r\n
 comment1.params=
 comment1.target=void\ act()
+comment1.text=\r\n\ Act\u00FAa\ cuando\ se\ hace\ clic\ en\ el\ bot\u00F3n.\r\n\ Cambia\ el\ mundo\ a\ una\ configuraci\u00F3n\ de\ dificultad\ dif\u00EDcil.\r\n
 numComments=2

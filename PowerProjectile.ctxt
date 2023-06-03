@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=PowerProjectile
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ PowerProjectile\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ La\ clase\ PowerProjectile\ representa\ un\ proyectil\ poderoso\ en\ el\ juego.\r\n\ Cuando\ el\ personaje\ interact\u00FAa\ con\ el\ proyectil\ poderoso,\ se\ le\ asigna\ el\ tipo\ de\ proyectil\ 2.\r\n\ Tambi\u00E9n\ se\ reproduce\ un\ sonido\ de\ power-up\ y\ se\ elimina\ el\ proyectil\ del\ mundo.\r\n\ Adem\u00E1s,\ se\ establece\ un\ tiempo\ de\ duraci\u00F3n\ para\ el\ proyectil\ poderoso\ en\ el\ personaje.\r\n\ \r\n\ Autor\ CristopherRms\r\n\ Versi\u00F3n\ 1.0\r\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ PowerProjectile\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.text=\r\n\ M\u00E9todo\ act.\ Define\ el\ comportamiento\ del\ proyectil\ poderoso.\r\n\ Este\ m\u00E9todo\ se\ ejecuta\ autom\u00E1ticamente\ cuando\ se\ presiona\ el\ bot\u00F3n\ "Act"\ o\ "Run"\ en\ el\ entorno.\r\n
 numComments=2

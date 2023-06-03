@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.target=MenuGO
-comment0.text=\r\nVa\ al\ menu\r\n
+comment0.text=\r\n\ Clase\ MenuGO\ (Menu\ Game\ Over\ -\ Men\u00FA\ de\ fin\ de\ juego)\r\n\ \r\n\ Esta\ clase\ representa\ un\ bot\u00F3n\ que\ permite\ ir\ al\ men\u00FA\ principal\ desde\ el\ juego.\r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0.\r\n
 comment1.params=
 comment1.target=void\ act()
+comment1.text=\r\n\ Act\u00FAa\ cuando\ se\ hace\ clic\ en\ el\ bot\u00F3n.\r\n\ Cambia\ el\ mundo\ al\ men\u00FA\ principal.\r\n
 numComments=2

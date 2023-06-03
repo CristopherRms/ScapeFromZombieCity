@@ -1,23 +1,29 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class ProjectileNormal here.
+ * La clase ProjectileNormal es una subclase de Projectile y representa un tipo de proyectil normal en el juego.
+ * Esta clase hereda de la clase Projectile.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author CristopherRms
+ * @version 1.0
  */
 public class ProjectileNormal extends Projectile
 { 
+    /**
+     * Constructor de la clase ProjectileNormal.
+     * Establece el daño del proyectil a 15.
+     */
     public ProjectileNormal(){
         dano=15;
     }
     
     /**
-     * Act - do whatever the ProjectileNormal wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Método act. Define el comportamiento de ProjectileNormal.
+     * Este método se ejecuta automáticamente cuando se presiona el botón "Act" o "Run" en el entorno.
      */
     public void act()
     {
         proyectil();
     }
 }
+

@@ -1,23 +1,26 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Line here.
+ * La clase Line representa una línea en el juego.
+ * Esta clase hereda de la clase ScrollingActor.
+ * Cuando el personaje interactúa con la línea, se llama al método terminaNivel() del mundo para finalizar el nivel.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Author CristopherRms
+ * Version 1.0
  */
 public class Line extends ScrollingActor
 {
     /**
-     * Act - do whatever the Line wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Método act. Define el comportamiento de la línea.
+     * Este método se ejecuta automáticamente cuando se presiona el botón "Act" o "Run" en el entorno.
      */
     public void act()
     {
+        // Verifica si el personaje está intersectando con la línea
         Personaje p = (Personaje)getOneIntersectingObject(Personaje.class);
-            if (p != null) {
-                ((Three)getWorld()).terminaNivel();
-                
-            }
+        if (p != null) {
+            // Llama al método terminaNivel() del mundo para finalizar el nivel
+            ((Three)getWorld()).terminaNivel();
+        }
     }
 }

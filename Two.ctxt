@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=Two
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Two\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Nivel\ 2\r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0\r\n
 comment1.params=ata\ ataB\ ataC\ puntos
 comment1.target=Two(int,\ int,\ int,\ int)
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Two.\r\n\ \r\n
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ One.\r\n\ Crea\ una\ nueva\ instancia\ de\ la\ clase\ One.\r\n\ \r\n\ @param\ ata\ el\ valor\ del\ ataque\r\n\ @param\ ataB\ el\ valor\ del\ ataque\ B\r\n\ @param\ ataC\ el\ valor\ del\ ataque\ C\r\n\ @param\ puntos\ los\ puntos\ obtenidos\r\n
 comment2.params=
 comment2.target=void\ checkLevel()
 comment2.text=\r\n\ Verifica\ que\ pasa\ en\ el\ nivel\ \r\n

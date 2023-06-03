@@ -1,14 +1,19 @@
 #BlueJ class context
 comment0.target=Humanoide
-comment0.text=\r\n\ Clase\ padre\ de\ todos\ los\ personajes\ del\ juego\r\n
+comment0.text=\r\n\ Clase\ Humanoide\ (Humanoide)\r\n\ \r\n\ Esta\ clase\ es\ la\ clase\ padre\ de\ todos\ los\ personajes\ del\ juego.\r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0\r\n
 comment1.params=
 comment1.target=void\ act()
+comment1.text=\r\n\ Act\u00FAa\ cuando\ se\ ejecuta\ el\ acto.\r\n\ Este\ m\u00E9todo\ debe\ ser\ implementado\ por\ las\ clases\ hijas.\r\n
 comment2.params=
 comment2.target=void\ animate()
+comment2.text=\r\n\ Realiza\ la\ animaci\u00F3n\ del\ personaje.\r\n
 comment3.params=
 comment3.target=greenfoot.GreenfootImage\ getCurrentFrame()
+comment3.text=\r\n\ Devuelve\ el\ frame\ actual\ de\ la\ animaci\u00F3n.\r\n
 comment4.params=
 comment4.target=void\ gravedad()
+comment4.text=\r\n\ Aplica\ la\ gravedad\ al\ personaje.\r\n
 comment5.params=
 comment5.target=void\ atacar()
+comment5.text=\r\n\ Realiza\ el\ ataque\ del\ personaje.\r\n
 numComments=6

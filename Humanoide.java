@@ -1,6 +1,11 @@
 import greenfoot.*;
+
 /**
- * Clase padre de todos los personajes del juego
+ * Clase Humanoide (Humanoide)
+ * 
+ * Esta clase es la clase padre de todos los personajes del juego.
+  * @autor CristopherRms
+ * @version 1.0
  */
 public abstract class Humanoide extends Actor {
     protected GreenfootImage[] walkingDFrames;
@@ -15,23 +20,38 @@ public abstract class Humanoide extends Actor {
     protected int direction; // 1 = derecha, -1 = izquierda
     protected boolean modeAttack;
     
-    public void act() {
-
+    /**
+     * Actúa cuando se ejecuta el acto.
+     * Este método debe ser implementado por las clases hijas.
+     */
+    public void act(){
+        
     }
     
+    /**
+     * Realiza la animación del personaje.
+     */
     private void animate() {
-
+        
     }
 
+    /**
+     * Devuelve el frame actual de la animación.
+     */
     private GreenfootImage getCurrentFrame() {
         return null;
     }
 
+    /**
+     * Aplica la gravedad al personaje.
+     */
     public void gravedad() {
         
     }
 
+    /**
+     * Realiza el ataque del personaje.
+     */
     private void atacar() {
-
     }
 }

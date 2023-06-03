@@ -1,8 +1,10 @@
 #BlueJ class context
 comment0.target=Restart
-comment0.text=\r\n\ Reinicia\ desde\ el\ nivel\ 1\r\n
+comment0.text=\r\n\ Clase\ Restart\ (Reiniciar)\r\n\ \r\n\ Esta\ clase\ representa\ un\ bot\u00F3n\ que\ permite\ reiniciar\ desde\ el\ nivel\ 1\ con\ una\ configuraci\u00F3n\ espec\u00EDfica.\r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0.\r\n
 comment1.params=a\ b\ c
 comment1.target=Restart(int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Restart.\r\n\ \r\n\ @param\ a\ Valor\ para\ el\ par\u00E1metro\ A\ del\ nivel\ 1\r\n\ @param\ b\ Valor\ para\ el\ par\u00E1metro\ B\ del\ nivel\ 1\r\n\ @param\ c\ Valor\ para\ el\ par\u00E1metro\ C\ del\ nivel\ 1\r\n
 comment2.params=
 comment2.target=void\ act()
+comment2.text=\r\n\ Act\u00FAa\ cuando\ se\ hace\ clic\ en\ el\ bot\u00F3n.\r\n\ Reinicia\ el\ juego\ desde\ el\ nivel\ 1\ con\ la\ configuraci\u00F3n\ especificada.\r\n
 numComments=3

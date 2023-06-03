@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Three
-comment0.text=\r\n\ Nivel\ Tres\r\n
+comment0.text=\r\n\ Nivel\ 3\ del\ juego.\r\n\ Extiende\ la\ clase\ Level1.\r\n\ \r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0\r\n
 comment1.params=ata\ ataB\ ataC\ puntos
 comment1.target=Three(int,\ int,\ int,\ int)
 comment1.text=\r\n\ Constructor\ \r\n

@@ -1,11 +1,12 @@
 #BlueJ class context
 comment0.target=Personaje
+comment0.text=\r\n\ Clase\ Personaje\ (Character)\r\n\ \r\n\ Esta\ clase\ representa\ a\ jefe\ en\ el\ juego.\r\n\ @autor\ CristopherRms\r\n\ @version\ 1.0\r\n
 comment1.params=boun
 comment1.target=Personaje(boolean)
-comment1.text=\r\n\ Constructor\r\n
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Personaje.\r\n\ @param\ a\ si\ esta\ en\ un\ mundo\ de\ scroll.\r\n
 comment10.params=
 comment10.target=greenfoot.GreenfootImage\ getCurrentFrame()
-comment10.text=\r\n\ regresa\ que\ Frame\ se\ usara\r\n
+comment10.text=\r\n\ Obtiene\ el\ frame\ actual\ de\ la\ animaci\u00F3n.\r\n\ @return\ La\ imagen\ correspondiente\ al\ frame\ actual\ de\ la\ animaci\u00F3n.\r\n
 comment11.params=
 comment11.target=void\ reinicia()
 comment11.text=\r\n\ Reinicia\ la\ partida\r\n
@@ -23,6 +24,7 @@ comment15.target=void\ keyboard()
 comment15.text=\r\n\ verfica\ el\ teclado\r\n
 comment2.params=
 comment2.target=void\ act()
+comment2.text=\r\n\ Realiza\ las\ acciones\ del\ personaje\ en\ cada\ ciclo\ del\ juego.\r\n
 comment3.params=
 comment3.target=void\ verificaProjectile()
 comment3.text=\r\n\ Verifica\ el\ tiempo\ que\ tienen\ las\ balas\ de\ fuego\r\n
